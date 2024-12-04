@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.encoding-messages-container {
+  flex: 1;
+  max-height: 400px; /* Set maximum height for scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
+  margin-right: 20px; /* Add spacing between the messages and the player */
+}
+
+.video-player-container {
+  flex: 1;
+  max-width: 50%; /* Adjust as needed to control player size */
+}
